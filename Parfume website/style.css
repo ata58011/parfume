@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .parfume_img img {
+  position: relative;
+
+  width: 300px;
+  height: 400px;
+}
+.container .content {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+}
+.container .content .small_title h5 {
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+
+.container .content .big_title h1 {
+  padding-top: 12px;
+  line-height: 35px;
+  color: hsl(212, 21%, 14%);
+}
+
+.paragraph {
+  padding-top: 17px;
+  font-size: 14px;
+  line-height: 25px;
+  word-spacing: 1px;
+  color: hsl(228, 12%, 48%);
+}
+.prices {
+  display: flex;
+  padding-top: 12px;
+}
+
+.prices h1 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+}
+
+.prices s {
+  text-decoration: line-through;
+  padding-left: 10px;
+  padding-top: 8px;
+  color: hsl(228, 12%, 48%);
+}
+
+
+
+
+
+.btn button {
+  width: 200px;
+  background-color: hsl(158, 36%, 37%);
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.btn button i {
+    font-size: 18px;
+    color: white;
+    padding-right: 10px;
+}
